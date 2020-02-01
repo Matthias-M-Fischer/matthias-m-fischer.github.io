@@ -12,7 +12,8 @@
 			font-family: "Helvetica", "Arial", sans-serif;
 			font-weight: normal;
 			font-style: normal;
-			padding-bottom: 1em;
+			padding-bottom: 0.5em;
+			padding-top: 0.5em;
 			display: block;
 		}
 
@@ -22,7 +23,7 @@
 			font-family: "Helvetica", "Arial", sans-serif;
 			font-weight: normal;
 			font-style: italic;
-			padding-bottom: 1em;
+			padding-bottom: 0.5em;
 			display: block;
 		}
 
@@ -31,7 +32,7 @@
 			font-family: "Helvetica", "Arial", sans-serif;
 			font-weight: bold;
 			font-style: normal;
-			padding-bottom: 1em;
+			padding-bottom: 0.5em;
 			display: block;
 		}
 
@@ -57,7 +58,6 @@
 		body {
 			color: #414141;			/* Dark gray */
 			background-color: #EEEEEE;	/* Lighter gray*/
-			padding-right: 0%;
 			padding-bottom: 3em;
 		}
 
@@ -84,9 +84,10 @@
 		}
 
 
+
 		a {
 			color: #0000B0;
-			text-decoration: none;
+			text-decoration: underline;
 		}
 
 		a:hover {
@@ -98,9 +99,11 @@
 		}
 
 
+
 		footer {
 			padding: 10px;
 			text-align: center;
 			font-size: 0.65em;
 			font-style: italic;
 		}
+
