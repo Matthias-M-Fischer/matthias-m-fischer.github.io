@@ -34,7 +34,7 @@
 
 		footer {
 			padding: 10px;
-			text-align: center;
+			#text-align: center;
 			font-size: 0.65em;
 			font-style: italic;
 		}
@@ -46,3 +46,7 @@
 		hr {
 			height: 1px;
 		}
+
+		ul {
+            list-style-type: circle;
+        }
